@@ -304,8 +304,8 @@ variables:
     dims: [time, lat, lon]
     formula: FATES_GPP * FATES_FRACTION
     sources:
-      - cesm_var: FATES_GPP
-      - cesm_var: FATES_FRACTION
+      - model_var: FATES_GPP
+      - model_var: FATES_FRACTION
 
   irrDem_tavg-u-hxy-u:
     table: atmos
